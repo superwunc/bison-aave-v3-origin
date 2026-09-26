@@ -23,6 +23,7 @@ max_test_rejects = 20000
 
 [rpc_endpoints]
 mainnet = "${RPC_MAINNET}"
+bnb_testnet="${RPC_BNB_TESTNET}"
 celo="${RPC_CELO}"
 polygon="${RPC_POLYGON}"
 polygon_amoy="${RPC_POLYGON_AMOY}"
@@ -58,4 +59,5 @@ monad="${RPC_MONAD}"
 
 [etherscan]
 mainnet = { key = "${ETHERSCAN_API_KEY_MAINNET}", chainId = 1 }
+bnb_testnet = { key = "${BSCSCAN_API_KEY}", chainId = 97 }
 # See more config options https://github.com/gakonst/foundry/tree/master/config
